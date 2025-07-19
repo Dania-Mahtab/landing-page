@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Travel Packages | Travel World</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Optional external stylesheet -->
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #2b6777;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h2 {
+      color: #2b6777;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .package-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .card-content h3 {
+      margin: 0;
+      color: #2b6777;
+    }
+
+    .card-content p {
+      margin: 10px 0 15px;
+      font-size: 0.95rem;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #52ab98;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background-color: #3d8d80;
+    }
+
+    footer {
+      background-color: #2b6777;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Explore Our Travel Packages</h1>
+</header>
+
+<div class="container">
+  <h2>Featured Packages</h2>
+  <div class="package-grid">
+
+    <div class="card">
+      <div class="card-content">
+        <h3>Paris Getaway</h3>
+        <p>5 Days | Flights + Hotel + Tours<br>Explore the city of love with guided Eiffel visits & Seine cruise.</p>
+        <a href="#" class="btn">Book Now</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-content">
+        <h3>Bali Beach Retreat</h3>
+        <p>7 Days | Resort + Spa + Adventures<br>Enjoy tropical paradise, yoga, and water sports in Bali.</p>
+        <a href="#" class="btn">Book Now</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-content">
+        <h3>Himalayan Trek</h3>
+        <p>10 Days | Trekking + Camping<br>Experience the thrill of the Himalayas with expert guides.</p>
+        <a href="#" class="btn">Book Now</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-content">
+        <h3>New York Explorer</h3>
+        <p>4 Days | City Tour + Museums<br>Discover the Big Apple’s iconic landmarks and lifestyle.</p>
+        <a href="#" class="btn">Book Now</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  &copy; 2025 Travel World. All rights reserved.
+</footer>
+
+</body>
+</html>
